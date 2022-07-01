@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import * as dat from 'lil-gui';
@@ -8,7 +10,6 @@ import testFragmentShader from './shaders/test/fragment.glsl';
  * Base
  */
 // Debug
-/* eslint-disable no-unused-vars */
 const gui = new dat.GUI();
 
 // Canvas

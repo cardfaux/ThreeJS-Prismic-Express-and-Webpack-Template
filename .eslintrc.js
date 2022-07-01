@@ -5,18 +5,19 @@ module.exports = {
     node: true,
     es2021: true,
   },
-  extends: ['eslint:recommended', 'prettier'],
+  extends: ['eslint:recommended', 'plugin:prettier/recommended'],
   plugins: ['prettier'],
   globals: {
     IS_DEVELOPMENT: 'readonly',
   },
+  parser: '@babel/eslint-parser',
   parserOptions: {
     ecmaVersion: 'latest',
   },
-  parser: '@babel/eslint-parser',
   rules: {
     semi: ['error', 'always'],
     quotes: ['error', 'single'],
     'no-unused-vars': [2],
+    'prettier/prettier': 'error',
   },
 };

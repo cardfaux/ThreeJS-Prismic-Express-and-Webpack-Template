@@ -2,7 +2,7 @@
 
 ## after running npm install, make a .env file and copy .env.example into it and provide the fields.
 
-## NPM RUN START will start the webpack dev server and the Express server
+## NPM RUN DEV will start the webpack dev server and the Express server
 
 ## The webpack dev server runs on port 3000
 
